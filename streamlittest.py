@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title('タイトル')
+st.title('移動手段シミュレ―ター')
 
 s = st.selectbox('行きたい場所を選んでください',('北海道（札幌市）','東京（新宿）','沖縄（那覇市）','愛知（名古屋市）'))
 if s == '北海道（札幌市）':
