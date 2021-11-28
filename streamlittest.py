@@ -39,35 +39,35 @@ button = st.button('Result')
 if button == True:
     if cal == '歩き':
         st.write('適した移動手段は歩きで、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/歩き.jpg')
+        img = Image.open('歩き.jpg')
         st.image(img, caption='歩き',use_column_width=True)
     elif cal =='自転車':
         st.write('適した移動手段は自転車で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/自転車.jpg')
+        img = Image.open('自転車.jpg')
         st.image(img, caption='自転車',use_column_width=True)
     elif cal =='車（下道）':
         st.write('適した移動手段は車（下道）で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/車（下道）.jpg')
+        img = Image.open('車（下道）.jpg')
         st.image(img, caption='車（下道）',use_column_width=True)
     elif cal =='車（高速）':
         st.write('適した移動手段は車（高速）で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/車（高速）.jpg')
+        img = Image.open('車（高速）.jpg')
         st.image(img, caption='車（高速）',use_column_width=True)
     elif cal =='新幹線':
         st.write('適した移動手段は新幹線で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/新幹線.jpg')
+        img = Image.open('新幹線.jpg')
         st.image(img, caption='新幹線',use_column_width=True)
     elif cal =='リニア':
         st.write('適した移動手段はリニアで、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/リニア.jpg')
+        img = Image.open('リニア.jpg')
         st.image(img, caption='リニア',use_column_width=True)
     elif cal =='飛行機':
         st.write('適した移動手段は飛行機で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/飛行機.jpg')
+        img = Image.open('飛行機.jpg')
         st.image(img, caption='飛行機',use_column_width=True)
     elif cal =='瞬間移動':
         st.write('適した移動手段は瞬間移動で、時速',speed,'kmです。')
-        img = Image.open('C:/Users/島　龍祥/Pictures/瞬間移動.jpg')
+        img = Image.open('瞬間移動.jpg')
         st.image(img, caption='瞬間移動',use_column_width=True)
 
 
